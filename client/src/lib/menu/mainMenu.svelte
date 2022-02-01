@@ -30,7 +30,7 @@
         display: flex;
         align-content: center;
         letter-spacing: 2px;
-        font-size: 1.5em;
+        font-size: 1.7em;
         font-family: 'Open Sans Condensed', sans-serif;
         padding-left: 10px;
     }
@@ -42,12 +42,14 @@
         border-bottom: 1px solid rgba(236, 236, 236, 0.3);
         box-shadow: 0px 15px 15px 0px rgb(10, 14, 29);
         clip-path: inset(-5px 0px -25px 0px);
+        padding: 5px;
     }
     .menuBox > div:hover:not(:nth-last-child(-n+3)) {
         background-color: rgba(104,62,19, 0.7);
     }
     .soloGame {
         border-bottom: 1px solid rgba(236, 236, 236, 0.3);
+        border-top: 1px solid rgba(236, 236, 236, 0.3);
     }
     .version {
         justify-content: right;

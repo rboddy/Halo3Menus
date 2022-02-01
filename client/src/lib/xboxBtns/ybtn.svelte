@@ -6,7 +6,7 @@
     #wrap {
         display: flex;
         align-items: center;
-        margin: 10px;
+        margin-right: 5px;
     }
     .icon:before {
         content: '';
@@ -18,7 +18,7 @@
         border-radius: 50%;
         border: 2px solid #F9DB24;
         background-color: #745101;
-        font-size: 16px;
+        font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         color: #F9DB24;
