@@ -11,15 +11,18 @@
     }
     h1 {
         font-family: Halo3;
-        color: white;
-        font-size: 7em;
+        font-size: 8em;
         margin: 0;
         font-weight: normal;
         position: absolute;
-        bottom: 0;
-        right: 0;
+        bottom: 25%;
+        right: 100px;
         display: flex;
         align-items: end;
+        background: -webkit-linear-gradient(#ffffff, #9BCCE4);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     span {
         font-family: HaloReach;
