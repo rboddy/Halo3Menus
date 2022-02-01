@@ -1,4 +1,5 @@
 <script>
+    import Ybtn from '$lib/xboxBtns/ybtn.svelte'
     const version = '1.2';
 </script>
 
@@ -10,7 +11,7 @@
     <div>Forge</div>
     <div>Theater</div>
     <div class="version">{version}</div>
-    <div>Settings Friends</div>
+    <div class="settings">Settings &ensp; <Ybtn />Friends</div>
     <div class="placeholder"></div>
 </div>
 
@@ -29,10 +30,18 @@
         display: flex;
         align-content: center;
         letter-spacing: 2px;
-        font-size: 2em;
-        text-transform: uppercase;
+        font-size: 1.5em;
         font-family: 'Open Sans Condensed', sans-serif;
         padding-left: 10px;
+    }
+    .menuBox > div:not(.settings) {
+        text-transform: uppercase;
+    }
+    .settings {
+        border-top: 1px solid rgba(236, 236, 236, 0.3);
+        border-bottom: 1px solid rgba(236, 236, 236, 0.3);
+        box-shadow: 0px 15px 15px 0px rgb(10, 14, 29);
+        clip-path: inset(-5px 0px -25px 0px);
     }
     .menuBox > div:hover:not(:nth-last-child(-n+3)) {
         background-color: rgba(104,62,19, 0.7);
