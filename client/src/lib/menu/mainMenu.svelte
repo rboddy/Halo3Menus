@@ -1,5 +1,7 @@
 <script>
     import Ybtn from '$lib/xboxBtns/ybtn.svelte'
+    import SettingsBtn from '$lib/xboxBtns/settings.svelte';
+
     const version = '1.2';
 </script>
 
@@ -11,7 +13,7 @@
     <div>Forge</div>
     <div>Theater</div>
     <div class="version">{version}</div>
-    <div class="settings">Settings &ensp; <Ybtn />Friends</div>
+    <div class="settings"><SettingsBtn />Settings &ensp; <Ybtn />Friends</div>
     <div class="placeholder"></div>
 </div>
 
