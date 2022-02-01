@@ -18,6 +18,8 @@
         position: absolute;
         bottom: 0;
         right: 0;
+        display: flex;
+        align-items: end;
     }
     span {
         font-family: HaloReach;
