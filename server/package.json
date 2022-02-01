@@ -1,0 +1,11 @@
+{
+  "name": "halomenus",
+  "version": "1.0.0",
+  "description": "The server side code for the Halo 3 Menus I'm building",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Boddy",
+  "license": "ISC"
+}
