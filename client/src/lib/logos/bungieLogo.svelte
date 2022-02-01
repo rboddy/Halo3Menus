@@ -9,7 +9,7 @@
         position: absolute;
         bottom: 5%;
         right: 100px;
-        height: 75px;
+        height: 50px;
         width: auto;
     }
 </style>
