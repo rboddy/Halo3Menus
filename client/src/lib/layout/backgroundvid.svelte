@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 
-	const video = '/FlyBy.mp4';
+	export let video;
 
 	var muted = true;
 
